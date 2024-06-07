@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: LivrariaTrabalho
+  datasource:
+    username: postgres
+    password: aulaPOO1
+    url: jdbc:postgresql://localhost:5432/livraria
+  jpa:
+    hibernate:
+      ddl-auto: update

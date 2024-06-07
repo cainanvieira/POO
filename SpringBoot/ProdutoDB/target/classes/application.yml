@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ProdutoDB
+  datasource:
+    username: postgres
+    password: aulaPOO1
+    url: jdbc:postgresql://localhost:5432/loja
+  jpa:
+    hibernate:
+      ddl-auto: update
